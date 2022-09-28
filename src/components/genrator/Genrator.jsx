@@ -15,7 +15,7 @@ const Genrator = () => {
             document.getElementById('teamName').innerHTML= Array1[randomNumber1]+ ' '+ Array2[randomNumber2];
             document.getElementsByClassName('genrateButton')[0].textContent = 'Genrate Again';
             return;
-        },10000);
+        },4000);
     }
   return (
     <>
