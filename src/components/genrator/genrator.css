@@ -1,0 +1,116 @@
+.hugeText{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    z-index: 2;
+}
+
+.team{
+    color: var(--base__color)
+}
+
+.genrateButton{
+    background-color: var(--base__color);
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+    margin: 2rem 1rem;
+    cursor: pointer;
+}
+.cardConatiner{
+    height: calc(100vh - 100px);
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 2rem 1rem;
+    position: relative;
+}
+
+.topLeftCircle{
+    background-color: var(--base__color);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px 0px 100% 0px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.topLeftSmallCircle{
+    background-color: var(--base__color);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    top: 3.3rem;
+    left: 1rem;
+    position: absolute;
+}
+.bottomRightSmallCircle{
+    background-color: var(--base__color);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    bottom: 3.8rem;
+    right: 1rem;
+    position: absolute;
+}
+.bottomRightSmallerCircle{
+    background-color: var(--base__color);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    bottom: 6.2rem;
+    right: 0.5rem;
+    position: absolute;
+}
+
+.bottomRightCircle{
+    background-color: var(--base__color);
+    width: 22px;
+    height: 40px;
+    border-radius: 100px 0 0 100px;
+    bottom: 1.3rem;
+    right: 0;
+    position: absolute;
+}
+
+/* Responsive */
+
+@media(min-width: 768px){
+    .hugeText{
+        font-size: 50px;
+    }
+}
+
+@media(min-width:1024px){
+    .hugeText{
+        font-size: 60px;
+        width: 80%;
+    }
+}
+
+/* Animation */
+.animatedText::before {
+    content: "Working on it...";
+    animation: animate infinite 10s;
+}
+@keyframes animate {
+  
+    0% {
+        content: "Cooking up the name...";
+    }
+    25%{
+        content: "Adding Spice...";
+    }
+
+    50% {
+        content: "Making Predictions...";
+    }
+
+    75% {
+        content: "Consulting Team members...";
+    }
+}
