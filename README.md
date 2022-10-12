@@ -3,7 +3,7 @@
 Team Name genrator is an online tool which Participants can use to genrate interesting names for thier teams.
 - Genrate Random Team Names with Ease
 - Make the process of selecting a team name easier
-- This is a starter bolier plate code Developed upon MERN Stack for starting with a Random team Name genrator.
+- This is a starter bolier plate code Developed upon React for starting with a Random team Name genrator.
 
 ## Installation
 To Contribute to this repository follow these commands in your Terminal:
@@ -15,16 +15,10 @@ To Contribute to this repository follow these commands in your Terminal:
 - `cd team-name-genrator`
 - `npm i`
 
-3. Install dependencies in client as well 
-- ` cd ./client/`
-- `npm i`
-
-4. Run the Client - front end
+3. Run Project
  - `npm start`
 
-5. Run the Backend in another Terminal
-- `cd ..`
-- `npm run dev`
+
 
 
 ## Getting Help
