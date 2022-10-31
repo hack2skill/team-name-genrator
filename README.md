@@ -9,7 +9,7 @@ Team Name genrator is an online tool which Participants can use to genrate inter
 To Contribute to this repository follow these commands in your Terminal:
 
 1. Clone the Repository
-- ` git clone https://github.com/hack2skill/qrcodeGenerator.git`
+- ` git clone https://github.com/hack2skill/team-name-genrator`
 
 2. After cloning the repository install all dependencies
 - `cd team-name-genrator`
