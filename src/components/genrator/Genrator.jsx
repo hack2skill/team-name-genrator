@@ -3,8 +3,8 @@ import './genrator.css';
 import ArrowRightAltRoundedIcon from '@mui/icons-material/ArrowRightAltRounded';
 
 const Genrator = () => {
-    const Array1 =[ 'Pro', 'Alpha', 'Diva', 'Super', 'True'];
-    const Array2 =['Techies', 'Coders', 'Champs', 'Hackers', 'Phantoms']
+    const Array1 =[ 'Pro', 'Alpha', 'Super', 'True','Great','Lethal','Powerful','Brute'];
+    const Array2 =['Techies', 'Coders', 'Champs', 'Hackers', 'Phantoms','Force'];
     const genrateName =() =>{
         document.getElementById('teamName').innerHTML='';
         document.getElementById('teamName').classList.add('animatedText');
@@ -27,7 +27,7 @@ const Genrator = () => {
                 Your <span className='team'>Team</span> Needs a Perfect Name
             </div>
             <div className='genrateButton' onClick={()=>{genrateName()}}>
-                Genrate Now <ArrowRightAltRoundedIcon/>
+                Get your Team Name <ArrowRightAltRoundedIcon/>
             </div>
 
             <div className='teamNameContainer' id='teamName'>
