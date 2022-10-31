@@ -6,7 +6,7 @@ Team Name genrator is an online tool which Participants can use to genrate inter
 - This is a starter bolier plate code Developed upon React for starting with a Random team Name genrator.
 
 ## Installation
-To Contribute to this repository follow these commands in your Terminal:
+To Contribute to this Repository follow these commands in your Terminal:
 
 1. Clone the Repository
 - ` git clone https://github.com/hack2skill/team-name-genrator`
