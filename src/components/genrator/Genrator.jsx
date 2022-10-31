@@ -3,8 +3,9 @@ import './genrator.css';
 import ArrowRightAltRoundedIcon from '@mui/icons-material/ArrowRightAltRounded';
 
 const Genrator = () => {
-    const Array1 =[ 'Pro', 'Alpha', 'Super', 'True','Great','Lethal','Powerful','Brute'];
-    const Array2 =['Techies', 'Coders', 'Champs', 'Hackers', 'Phantoms','Force'];
+    const Array1 =[ 'Pro', 'Alpha', 'Super', 'True','Great','Lethal','Powerful','Brute''Firmware', 'Bug-Byte', 'Computer'];
+    const Array2 =['Techies', 'Coders', 'Champs', 'Hackers', 'Phantoms','Force', 'Bots', 'Rebels', 'Linguists', 'League', 'Wave', 'Theatricals'];
+
     const genrateName =() =>{
         document.getElementById('teamName').innerHTML='';
         document.getElementById('teamName').classList.add('animatedText');
