@@ -27,8 +27,8 @@ const Genrator = () => {
             <div className="hugeText">
                 Your <span className='team'>Team</span> Needs a Perfect Name
             </div>
-            <div className='genrateButton' onClick={()=>{genrateName()}}>
-                Get your Team Name <ArrowRightAltRoundedIcon/>
+            <div className='genrateButton hover:scale-105 transition duration-150 ease-out hover:ease-in' onClick={()=>{genrateName()}}>
+                Genrate Now <ArrowRightAltRoundedIcon/>
             </div>
 
             <div className='teamNameContainer' id='teamName'>
